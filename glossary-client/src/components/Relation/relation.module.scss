@@ -1,0 +1,11 @@
+.relation {
+    position: absolute;
+    display: block;
+    padding: 4px;
+    box-shadow: 0px 0px 0.1em 0px black;
+    border-radius: 0.4em;
+    z-index: 1;
+    transition-property: background-color, color;
+    transition-duration: 0.6s;
+    background: rgb(144, 193, 248);
+}

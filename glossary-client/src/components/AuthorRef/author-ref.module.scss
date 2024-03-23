@@ -1,0 +1,17 @@
+.ref__button {
+    border: none;
+    background-color: inherit;
+    height: auto;
+    font: inherit;
+    justify-self: end;
+}
+
+.ref__a {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    transition-property: color;
+    transition-duration: 0.5s;
+    &:hover {
+        color: rgb(53, 103, 240);
+    }
+}

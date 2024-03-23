@@ -1,0 +1,15 @@
+.header__container {
+    position: fixed;
+    background-color: rgb(210, 230, 253);
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 28em 1fr;
+    width: 100%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.header__container_hidden {
+    transform: translateY(-2em);
+}

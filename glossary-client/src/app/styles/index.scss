@@ -1,0 +1,18 @@
+@import url('./variables/global.scss');
+@import url('./base.scss');
+
+body {
+    font: var(--font-m);
+    background-color: rgb(210, 230, 253);
+}
+
+main {
+    margin-top: 3em;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 1800px) {
+    body {
+        font: var(--font-l);
+    }
+}

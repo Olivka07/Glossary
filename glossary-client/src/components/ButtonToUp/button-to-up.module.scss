@@ -1,0 +1,21 @@
+.button__toUp {
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+    background-color: rgba(5, 5, 157, 0.182);
+    color: rgba(255, 255, 255, 0.334);
+    border: 0;
+    transition-property: transform, background-color, color;
+    transition-duration: 0.3s;
+    font: var(--font-s);
+    height: auto;
+    &_hidding {
+        transform: translateX(100vw);
+    }
+}
+
+@media (min-width: 1800px) {
+    .button__toUp {
+        font: var(--font-m);
+    }
+}

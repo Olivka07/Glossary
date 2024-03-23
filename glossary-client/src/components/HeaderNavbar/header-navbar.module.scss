@@ -1,0 +1,17 @@
+.header__nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    justify-items: center;
+}
+.link {
+    color: black;
+    &:hover {
+        font-weight: 600;
+    }
+}
+
+.active__link {
+    color: rgb(31, 126, 147);
+    font-weight: 800;
+}

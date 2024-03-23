@@ -1,0 +1,28 @@
+.card__container {
+    width: 25vw;
+    border-radius: 10px;
+    font: var(--font-s);
+    background-color: rgb(230, 237, 99);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+
+    &:hover {
+        background-color: yellow;
+        cursor: pointer;
+    }
+}
+
+.card__title {
+    font: var(--font-m);
+    font-weight: 600;
+}
+
+@media (min-width: 1800px) {
+    .card__container {
+        font: var(--font-m);
+    }
+
+    .card__title {
+        font: var(--font-l);
+    }
+}
